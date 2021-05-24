@@ -1,0 +1,110 @@
+@media (max-width: 739px){
+    .nav,
+    .nav li,
+    .nav li a{
+        display: block;
+    }
+
+    .nav li a {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    .nav > li:first-child{
+        display: inline-block;
+    }
+    
+    .nav .subnav{
+        position: unset;
+        background-color: black;
+    }
+
+    .nav .subnav a{
+        padding: 5px 40px;
+    }
+
+    .nav li:hover .subnav a {
+        background-color: #333;
+        width: 100%;
+        color: white;
+    }
+    
+    .nav .subnav li:hover a {
+        background-color: #ccc;
+        color: black;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .header .bar{
+        display: block;
+    }
+    .content .about_team{
+        flex-direction: column;
+    }
+
+    .content .member_list{
+        width: 100%;
+    }
+
+    .content .memberimg{
+        width: 60%;
+    }
+
+    .header{
+        overflow: hidden;
+    }
+
+    .place_container .place{
+        width: 100%;
+    }
+
+    .place_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .place_container .buy_btn{
+        display: block;
+    }
+
+    .contact .box1,
+    .contact .box2{
+        width: 100%;
+    }
+
+    .contact .box2{
+        margin-top: 35px;
+        font-size: 15px;
+    }
+
+    .contact .box2 .email,
+    .contact .box2 .name{
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .contact .submit{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .slider .content_text{
+        display: none;
+    }
+
+    .content .member_list + .member_list{
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 740px) and (max-width:1024px) {
+
+}
